@@ -25,7 +25,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/virtualunionsex/Stringbot",
+  "repository": "https://github.com/virtualunionsex/stringbot",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
