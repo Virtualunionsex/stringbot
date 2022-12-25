@@ -17,11 +17,11 @@ if ENVIRONMENT:
         MUST_JOIN = MUST_JOIN.replace("@", "")
 else:
     # Fill the Values
-    API_ID = 0
-    API_HASH = ""
-    BOT_TOKEN = ""
-    DATABASE_URL = ""
+    API_ID = 16246834
+    API_HASH = "29b3ffa9245c07f05375b92f38e8f13d"
+    BOT_TOKEN = "5894485189:AAHKL7pEKVdVWa9OEaBlJ-wqb27xB251rl8"
+    DATABASE_URL = "postgres://lbppnpzg:anX6J9dllmK1q0R9hGHUykgqGcTJfw_4@rosie.db.elephantsql.com/lbppnpzg"
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
-    MUST_JOIN = ""
+    MUST_JOIN = "nakama_asl"
     if MUST_JOIN.startswith("@"):
         MUST_JOIN = MUST_JOIN[1:]
